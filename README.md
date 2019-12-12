@@ -2,6 +2,7 @@
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/ReplyQuickStart/SQL-Paas-Mgmt-VM/blob/master/azuredeploy.json" target="_blank">
     <img src="https://azuredeploy.net/deploybutton.png"/>
 </a>
+
 ## How to Deploy
 
 You can click the "Deploy to Azure" button at the beginning of this document or follow the instructions for command line deployment using the scripts in the root of this repo, and populate following parameters:
