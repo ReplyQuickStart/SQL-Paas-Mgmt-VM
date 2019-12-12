@@ -1,5 +1,5 @@
 # Azure Sql Database PaaS with Management VM inside New Virtual Network
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/ReplyQuickStart/SQL-Paas-Mgmt-VM/blob/master/azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/ReplyQuickStart/SQL-Paas-Mgmt-VM/azuredeploy.json" target="_blank">
     <img src="https://azuredeploy.net/deploybutton.png"/>
 </a>
 
