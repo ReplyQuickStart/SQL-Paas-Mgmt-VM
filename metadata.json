@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Create SQL PaaS with Mangement VM inside new virtual network",
+  "description": "Deploy Azure Sql Database PaaS and Mangement VM inside new Virtual Network.",
+  "summary": "Deploy Azure Sql Database PaaS and Mangement VMinside new Virtual Network",
+  "githubUsername": "ReplyQuickStart",
+  "dateUpdated": "2019-12-12"
+}
+
