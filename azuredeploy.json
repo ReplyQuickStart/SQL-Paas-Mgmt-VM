@@ -73,9 +73,7 @@
         "skuName": {
             "type": "string",
             "allowedValues":[
-                "GP_Gen4",
                 "GP_Gen5",
-                "BC_Gen4",
                 "BC_Gen5"
             ],
             "defaultValue": "GP_Gen4",
