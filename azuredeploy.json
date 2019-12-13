@@ -139,10 +139,10 @@
         "routeTableName": "[concat('SQLMI-', parameters('managedInstanceName'), '-Route-Table')]",
         "virtualMachineName": "[concat(parameters('managedInstanceName'), 'JB')]",
         "virtualMachineSize": "Standard_B2s",
-        "networkInterfaceName": "[concat('SQLMI-', parameters('managedInstanceName'), '-JB-NIC')]",
-        "publicIpAddressName": "[concat('SQLMI-', parameters('managedInstanceName'), '-JB-IP')]",
+        "networkInterfaceName": "[concat('SQL-', parameters('managedInstanceName'), '-JB-NIC')]",
+        "publicIpAddressName": "[concat('SQL-', parameters('managedInstanceName'), '-JB-IP')]",
         "jbNetworkSecurityGroupName": "[concat('SQLMI-', parameters('managedInstanceName'), '-JB-NSG')]",
-        "scriptFileUri": "[uri(parameters('_artifactsLocation'), concat('installSSMS.ps1', parameters('_artifactsLocationSasToken')))]"
+        "scriptFileUri": "https://addiag268.blob.core.windows.net/ps1/installSSMS.ps1"
     },
     "resources": [
         {
