@@ -266,24 +266,6 @@
             }
         },        
         {
-            "type": "Microsoft.Network/routeTables",
-            "name": "[variables('routeTableName')]",
-            "apiVersion": "2018-02-01",
-            "location": "[parameters('location')]",
-            "properties": {
-                "disableBgpRoutePropagation": false,
-                "routes": [
-                    {
-                        "name": "default",
-                        "properties": {
-                            "addressPrefix": "0.0.0.0/0",
-                            "nextHopType": "Internet"
-                        }
-                    }
-                ]
-            }
-        },
-        {
             "name": "[parameters('virtualNetworkName')]",
             "type": "Microsoft.Network/virtualNetworks",
             "apiVersion": "2018-02-01",
