@@ -228,7 +228,7 @@
                       "description": "Allow outbound management traffic",
                       "protocol": "Tcp",
                       "sourcePortRange": "*",
-                      "destinationPortRanges": ["80", "443", "12000"],
+                      "destinationPortRanges": ["443", "12000"],
                       "sourceAddressPrefix": "*",
                       "destinationAddressPrefix": "*",
                       "access": "Allow",
